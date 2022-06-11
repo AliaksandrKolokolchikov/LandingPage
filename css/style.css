@@ -1,0 +1,259 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+    max-width: 1445px;
+}
+
+input {
+    all: unset;
+}
+a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+}
+.homepage{
+width: 943.61px;
+height: 768px;    
+background: #FFFFFF;
+padding-left: 252.05px;
+}
+/* HEADER */
+.navigation--list{
+list-style: none;
+display: flex;
+justify-content: space-between;
+padding-bottom: 31.92px;
+border-bottom: 1px solid #828282;
+width: 943.61px;
+}
+.navigation--list__item{
+font-size: 18px;
+line-height: 22px;   
+padding-top: 33px;
+font-family: 'Gilroy-Bold';
+}
+.homepage__container--info{
+display: flex;
+justify-content: space-between;
+width: 943.61px;
+}
+.homepage__name{
+font-family: 'Gilroy-Bold';
+font-size: 47.3392px;
+line-height: 59px;
+color: black; 
+padding-top: 39.69px;
+width:123.51px;
+}
+.homepage__info{
+padding-top: 94.77px;
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+color: #070707;
+width:155.65px;
+}
+.homepage__language{
+font-family: 'Gilroy-Bold';
+font-size: 16px;
+line-height: 20px;
+color: #828282;
+transform: rotate(-90deg);
+padding-top: 69.5px;
+}
+.homepage__language > span{
+color: black;
+}
+.homepage__img{
+padding-top: 30.64px;
+}
+
+/* ABOUT */
+.about{
+width: 1445px;
+height: 506px;
+background: #F6F6F6;
+}
+.about__title{
+font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+padding-top: 120.25px;
+padding-bottom:17.69px;
+}
+.about__text{
+margin-left: 480px;
+width: 485.34px;
+height: 218px;
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+}
+
+/* SKILLS */
+.skills{
+width: 1445px;
+height: 610px;
+background: #FFFFFF;
+}
+.skills__title{
+font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+padding-top: 91px;
+padding-bottom: 69.1px;
+}
+.skills__text{
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+}
+.skills__container{
+display: flex;
+justify-content: space-between;
+}
+.skills__programm{
+padding-top:87.27px ;
+}
+.skills__info + .skills__info + .skills__info + .skills__info {
+padding-right: 167.99px;
+}
+.skills__info:first-child{
+padding-left: 294.22px;
+}
+.skills__info:last-child{
+padding-right: 304.25px;
+}
+.skills__nameprogramm{
+font-family: 'Gilroy-Bold';
+font-size: 14px;
+line-height: 17px;
+color: #828282;
+padding-top: 24.21px;
+padding-bottom: 40.41px;
+width: 70.29px;
+text-align: center;
+}
+
+/* portfolio */
+
+.portfolio{
+width: 1445px;
+height: 2253px;
+background: #F6F6F6;
+}
+.portfolio__title{
+font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707; 
+padding-top: 112.93px;
+padding-bottom: 47px;
+}
+.portfolio__paper{
+padding-left: 257.71px;
+}
+.portfolio__text{
+padding-top:45px;
+padding-bottom: 99px;
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+}
+
+/* FOOTER */
+footer{
+width: 1445px;
+height: 622px;
+background: #FFFFFF;
+}
+.contacts__title{
+font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+padding-top: 114px;
+padding-bottom: 20px;
+}
+.contacts__text{
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+color: #070707;
+width: 260px;
+text-align: center;
+margin-left: 590px;
+padding-bottom: 29.6px;
+}
+.contacts__button{
+width: 180.5px;
+height: 42px;
+background: #070707;
+border-radius: 30px;
+margin-left: 634px;
+}
+.text{
+font-family: 'Gilroy-Bold';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+}
+.contacts__network--container{
+display: flex;
+justify-content: space-between;
+padding-top: 85px;
+}
+.footer__nav--item:first-child{
+padding-left: 552px;
+}
+.footer__nav--item:last-child{
+padding-right: 550px;
+}
+.contacts__middle--text{
+font-family: 'Gilroy-Medium';
+font-size: 14px;
+line-height: 17px;
+color: #828282;
+padding-top: 46px;
+width:243.01px;
+height: 34px;
+margin-left: 605px;
+text-align: center;
+}
